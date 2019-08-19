@@ -1,0 +1,74 @@
+Site JCE par KUSHUH GAMI : notes à l’intention des webmasters
+
+Note 1 :
+-----------------------------------------------------
+RÉPARTITION DES FICHIERS>>conventions de nommage
+
+	index.html -> page principale (accueil).
+	nompage.html
+	nompage.css
+
+	styles.css -> contient les feuilles communnes à plusieurs pages
+
+Note 2 :
+-----------------------------------------------------
+CODE HTML COMMUN>>
+	Le modèle commun HTML est trouvable dans le fichier common.html, et doit etre présent sur CHAQUE PAGE HTML INDIVIDUELLEMENT.
+	
+	Il convient, en cas de modification de ce fichier, de modifier toutes les pages déjà existante pour tenir compte des modifications.
+
+	CHAQUE fichier CSS doit comporter, en tout début, la ligne suivante :
+		@import url("styles.css");
+
+Note 3 :
+-----------------------------------------------------
+CHARTE GRAPHIQUE>>
+Veillez à respecter la charte graphique. Les couleurs JCE sont :
+
+	Bleu JCE :		#5B8EBE
+	Bleu JCE (foncé) :	#3572AE
+	Bleu JCE (clair) :	#A5BFDA
+	Orange ESME :		#DD8623
+	Gris intermédiaire :	#DDDDDD
+
+Note 4 :
+-----------------------------------------------------
+MAJs>>Numérotation
+
+La convention de numérotation de la version du site est la suivante (pour 1.0.0 et postérieures) :
+
+	A.A.x -> modification graphique mineure/modification de types de données dans un encadré (ex.: afficher chiffre d’affaires au lieu de nombre de membres).
+
+	A.x -> changement de charte graphique/ajout de fonctionnalité
+
+	x -> nouvelle organisation graphique/nouvelle organisation interne/ajout de sections/ajout de fonctionnalités majeures
+
+Note 5 :
+-----------------------------------------------------
+CODE HTML COMMUN>>menu principal
+
+Dans le code commun, il convient de rajouter la classe suivante devant la ligne de la page en cours, dans la balise <li> correspondante :
+	class="active"
+
+Pour les id="drop", rajouter la classe class="active_drop" dans le <li> du sous menu, et la classe class="active" dans le <li> principale
+
+Note 6 :
+-----------------------------------------------------
+CODE COULEURS>>posts
+	
+	En négociation : #333333
+	En recherche d’intervenants : #A01993
+	En cours : #DD8623
+	En cours de finalisation : #54DB23
+	Terminé : #5B8EBE
+
+On a terminé :
+Aiesme
+Cea
+Nfc
+Omniscol
+
+En cours
+Sphère à LED
+Plifaltec
+Pupitres

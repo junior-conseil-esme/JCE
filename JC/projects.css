@@ -1,0 +1,152 @@
+﻿/*JCE CSS theme by Kushuh神*/
+@import url("styles.css");
+
+#projects_sub > img{
+	display: block;
+	width: 8%;
+	height: auto;
+	margin: auto;
+}
+
+#projects_sub > p{
+	text-align: center;
+	text-justify: distribute;
+	color: #000000;
+	display: block;
+	width: 96%;
+	height: auto;
+	font-weight: bold;
+	padding: 2%;
+}
+
+/*
+#clients_list{
+	display:	flex;
+	flex-direction:row;
+	flex-wrap:	wrap;
+	justify-content:space-around;
+	margin: 0 2% 2% 2%;
+}
+*/
+
+.project
+{
+	width: 20%;
+	margin: 3% 4% 0 4%;
+
+}
+
+
+
+.Y_select{
+	display: inline-table;
+	width: 14%;
+	height: auto;
+	padding: 0 1% 0 0;
+	margin: 0 1% 0 0;
+	border-color: #AAAAAA;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	vertical-align: top;
+}
+
+.Y_select > p{
+	text-align: center;
+	color: #000000;
+	display: block;
+	width: 100%;
+	padding: 0;
+}
+
+.Y_select > div{
+	display: block;
+	width: 90%;
+	background-color: transparent;
+	color: #5B8EBE;
+	text-align: center;
+	height: auto;
+	margin: 0;
+	padding: 5%;
+	transition: linear 0s;
+}
+
+.Y_select > div > a{
+	display: block;
+	width: 100%;
+	color: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	transition: linear 0s;
+}
+
+.Y_select > div:hover{
+	transition: linear 0s;
+	background-color: #5B8EBE;
+	color: #FFFFFF;
+}
+
+.sel{
+	background-color: #DD8623!important;
+	color: #FFFFFF!important;
+}
+
+.P_display{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.member_big:nth-child(1){margin: 0 5% 0 0!important;}
+.member_big:last-child{margin: 0 0 0 5%!important;}
+
+.member_big{
+	display: block;
+	float: left;
+	width: 26.6%;
+	margin: 0 5% 0 5%;
+	padding: 0;
+}
+
+.member_big >img{
+	width: 100%;
+	height: auto;
+}
+
+.member_big > div {
+	width: auto;
+	display: block;
+	border-width: 1px;
+	border-color: #AAAAAA;
+	border-style: solid;
+}
+
+.name{
+	text-align: center;
+	color: #5B8EBE;
+	font-weight: bold;
+}
+
+.function{
+	text-align: center;
+}
+
+.deport{
+	margin: 1% 0 0 0;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.deport > a{
+	display: block;
+	width: 25%!important;
+	margin: auto!important;
+}
+
+.p_list{
+	width: 99%;
+	height: auto;
+	padding: 0;
+	margin: 0 0 0 1%;
+}

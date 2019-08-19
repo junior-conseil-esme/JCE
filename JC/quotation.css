@@ -1,0 +1,109 @@
+/*JCE CSS theme by Kushuh?*/
+@import url("styles.css");
+
+.skill_field:focus, .skill_bill:focus, .skill_delay:focus, .skill_description:focus, .skill_fname:focus, .skill_lname:focus, .skill_email:focus, .skill_phone:focus, .skill_field:visited, .skill_bill:visited, .skill_delay:visited, .skill_description:visited, .skill_fname:visited, .skill_lname:visited, .skill_email:visited, .skill_phone:visited{
+	border-color: transparent!important;
+	border: none!important;
+	border-width: 0!important;
+	outline-width: 0;
+}
+
+.skill_field, .skill_bill, .skill_delay, .skill_description, .skill_fname, .skill_lname, .skill_email, .skill_phone{
+	height: auto;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 0;
+	display: block;
+	width: 90%;
+	margin: 0;
+	outline-width: 0;
+	border: none!important;
+	border-width: 0!important;
+}
+
+.skill_description{width: 100%!important;}
+
+.skill_field::placeholder, .skill_bill::placeholder, .skill_delay::placeholder, .skill_description::placeholder, .skill_fname::placeholder, .skill_lname::placeholder, .skill_email::placeholder, .skill_phone::placeholder{
+	color: #AAAAAA;
+}
+
+.field{
+	display: inline-block;
+	width: 25%;
+	margin: 1% 2% 2% 0;
+}
+
+.bill{
+	display: inline-block;
+	width: 30%;
+	margin: 1% 0 2% 0;
+}
+
+.delay{
+	display: inline-block;
+	width: 39.2%;
+	margin: 1% 2% 2% 0;
+}
+
+.description{
+	display: block;
+	width: 100%;
+	margin: 1% 0 2% 0;
+}
+
+.skill_description{
+	resize: none;
+}
+
+.lname, .email{
+	display: inline-block;
+	width: 48.5%;
+	margin: 1% 2% 2% 0;
+}
+
+.fname, .phone{
+	display: inline-block;
+	width: 48.5%;
+	margin: 1% 0 2% 0;
+}
+
+#survey_width{
+	width: 55%!important;
+	margin: auto;
+	overflow: visible!important;
+}
+
+.furi{
+	display: block;
+	color: #5B8EBE;
+	height: auto;
+	width: 100%;
+}
+
+.indication{
+	width: 100%;
+	display: block;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+.submit_btn{
+	width: 30%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	font-size: 17px;
+	border-width: 0;
+	background-color: #5B8EBE;
+	color: #FFFFFF;
+	transition: linear 0.2s;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.submit_btn:hover{
+	transition: linear 0s;
+	background-color: #3572AE;
+}
+
+.submit_btn:focus, .submit_btn:visited{outline-width: 0;}

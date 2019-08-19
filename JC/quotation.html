@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="">
+
+<head>
+<title>JCE - Devis</title>
+<link rel="shortcut icon" href="images/Icons/JCE Logo icon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="quotation.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body id="top">
+
+<!--Top Bar Menu-->
+
+<div class="top_menu">
+	<nav id="mainav" class="hoc clear"> 
+	<div class="header_logo_main"></div>
+		<ul class="clear">
+			<li><a href="index.html">Accueil<div class="underline"></div></a></li>
+			<li><a href="about.html">La Junior-Conseil ESME<div class="underline"></div></a></li>
+	
+			<li><a href="projects.html">Projets<div class="underline"></div></a></li>
+			<li><a href="members.html">Membres<div class="underline"></div></a></li>
+			<li class="quotation_head_active"><a href="#top">Devis</a></li>
+			<li><a href="contact.html">Nous contacter<div class="underline"></div></a></li>
+		</ul>
+	
+		<ul class="faico clear">
+			<li><a class="faicon-facebook" href="https://www.facebook.com/JuniorConseilESME/"><i class="fa fa-facebook"></i></a></li>
+			<li><a class="faicon-linkedin" href="https://www.linkedin.com/company/junior-conseil-esme"><i class="fa fa-linkedin"></i></a></li>
+		</ul>
+	</nav>
+</div>
+
+<div class="sections"><div class="sections_margin">
+
+<!-- Section 1 -->
+
+	<div class="sub_section">
+		<h1>Formulaire</h1>
+		<form class="sub_section_2" name="quotation_form_send" action="submit_form.php" method="post" id="survey_width">
+			<div class="field">
+				<p class="furi">Domaine</p>
+				<select class="skill_field">
+					<option value="autre">---</option>
+					<option value="ingénierie">Ingénierie</option>
+					<option value="informatique">Informatique</option>
+					<option value="traduction">Traduction</option>
+					<option value="conseil">Conseil</option>
+				</select>
+			</div>
+			<div class="delay">
+				<p class="furi">Délai</p>
+				<input type="text" name="delai" class="skill_delay" placeholder="Quel délai pour votre projet ?">
+			</div>
+			<div class="bill">
+				<p class="furi">Budget</p>
+				<input type="number" name="budget" class="skill_bill" placeholder="Quel budget pour votre projet ?">
+			</div>
+			<div class="description">
+				<p class="furi">Description *</p>
+				<textarea tabindex="1" type="text" name="description" class="skill_description" placeholder="Décrivez nous votre projet" rows="12" minlength="1" required></textarea>
+			</div>
+			<div class="lname">
+				<p class="furi">Nom *</p>
+				<input type="text" name="lname" class="skill_lname" placeholder="Votre nom" minlength="1" required>
+			</div>
+			<div class="fname">
+				<p class="furi">Prénom *</p>
+				<input type="text" name="fname" class="skill_fname" placeholder="Votre prénom" minlength="1" required>
+			</div>
+			<div class="email">
+				<p class="furi">E-mail *</p>
+				<input type="email" name="email" class="skill_email" placeholder="Votre adresse e-mail" required>
+			</div>
+			<div class="phone">
+				<p class="furi">Numéro de téléphone *</p>
+				<input type="tel" name="phone" class="skill_phone" placeholder="Votre numéro de téléphone" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" required>
+			</div>
+			<p class="indication">Les champs marqués d'une * sont obligatoires</p>
+			<button tabindex="-1" type="submit" id="submit_form" class="submit_btn" value="Send Form">Envoyer ma demande</button>
+		</form>
+	</div>
+
+</div>
+
+<!--Contact-->
+
+	<footer class="ending" id="full_bottom">
+		<div class="contact">
+			<div class="ct_nfo">
+				<h5>Nous contacter</h5>
+				<address><span class="sec_tit">Junior-Conseil ESME</span><br />
+					<span class="marge"></span>&#9993;&nbsp;&nbsp;<span class="it"><a class="ct_link" href="mailto:contact@jcesme.fr">contact@jcesme.fr</span></a><br />
+					<span class="marge"></span>&#9742;&nbsp;&nbsp;<span class="it">+33 6 52 37 00 03</span><br />
+				</address>
+				<p class="loc"><span class="sec_tit">ESME Sudria</span><br />38 rue Molière, Ivry-sur-Seine<br />94200 FRANCE<br />Voir accueil au rez-de-chaussée</p>
+				<div class="map">
+				
+				</div>
+			</div>
+			<div class="partners">
+				<h5>Partenaires</h5>
+				<div class="partners_pic">
+					<img src="images/Partners/Esme.png" alt="E.S.M.E Sudria" class="pt_icon">
+					<img src="images/Partners/AIESME.png" alt="AIESME Sudria" class="pt_icon">
+					<img src="images/Partners/JE.png" alt="CNJE" class="pt_icon">
+				</div>
+			</div>
+		</div>
+		<div class="copyrights">
+			<div class="JCE">© 2016-2017 JCE | Association loi 1901 de type Junior-Entreprise</div>
+			<div class="WeebM">Site JCE 1.1 | Conception : Kushuh神 | Codé par : Kushuh神, Ru-Senpai | Modifié par : MOHAMMADI Riad</div>
+		</div>
+	</footer>
+
+</div>
+</body>
+</html>

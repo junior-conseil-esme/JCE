@@ -1,0 +1,56 @@
+/*JCE CSS theme by Kushuh?*/
+@import url("styles.css");
+
+#members_sub{
+	width: 70%!important;
+	margin: auto!important;
+}
+
+.MA{
+	font-size: 35px;
+	color: #5B8EBE;
+	text-align: center;
+	padding: 0 0 0 0;
+	margin: 0 1 0 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+#titre{
+	font-size: xx-large;
+	color: #5B8EBE;
+}
+
+
+.Y_select{
+	padding: 10% 0 0 0;
+	margin: 0 0 5% 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+.Y_select > div{
+	display: block;
+	width: 90%;
+	background-color: transparent;
+	color: #5B8EBE;
+	text-align: center;
+	height: auto;
+	margin: 0;
+	padding: 5%;
+	transition: linear 0s;
+}
+
+.Y_select > div > a{
+	display: block;
+	width: 100%;
+	color: inherit;
+	font-size: large;
+	text-decoration: none;
+	transition: linear 0s;
+}
+
+.Y_select > div:hover{
+	transition: linear 0s;
+	background-color: #5B8EBE;
+	color: #FFFFFF;
